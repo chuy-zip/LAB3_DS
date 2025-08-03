@@ -16,8 +16,6 @@ def merge_notebooks(file_paths, output_path):
 # para sorpresa de nadie, las tildes seguramente sean el problema que no dejan juntarlos con
 # un comando/libreria externa
 if __name__ == '__main__':
-    notebooks = ['colab_exploratory_analisis_final.ipynb', 'cnn_models.ipynb']
-    merge_notebooks(notebooks, 'avance_temp.ipynb')
+    notebooks = ['avance_completo.ipynb', 'second_part.ipynb']
+    merge_notebooks(notebooks, 'lab_final.ipynb')
 
-    notebooks2 = ['avance_temp.ipynb', 'colab_red_simple.ipynb']
-    merge_notebooks(notebooks2, 'avance_completo.ipynb')
